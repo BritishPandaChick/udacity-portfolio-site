@@ -1,0 +1,66 @@
+/* Basic Styles */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2d3c49;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  height: 50%;
+  border: 2px solid #7d97ad;
+  padding: 0 15px;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: 'Over the Rainbow', cursive;
+  color: #02b3e4;
+  order: 1;
+}
+
+header .site-name {
+  order: 2;
+}
+
+header h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-size: 1.2em;
+}
+
+/* Header-Image */
+#header-image {
+  margin-top: 15px;
+}
+
+/* Featured Work */
+#featured h2 {
+  font-size: 2em;
+  color: #7d97ad;
+}
+
+#featured h3 {
+  font-size: 1.5em;
+}
+
+#featured p {
+  font-size: 1.3em;
+  padding-bottom: 15px;
+}
+
+/* Footer */
+footer p {
+  font-size: 1em;
+}
