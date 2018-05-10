@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+}
+
 /* Grid System */
 .full-width {
   width: 100%;
@@ -27,53 +31,61 @@ img {
 /* Header */
 header {
   border: 2px solid #7d97ad;
-  height: 200px;
+  height: 230px;
 }
 
-header .full-width {
-  padding: 15px;
+header .half-width {
+  padding-left: 15px;
 }
 
 header h1 {
-  font-size: 3em;
   font-family: 'Over the Rainbow', cursive;
-  color:#02b3e4;
+  font-size: 52px;
+  color: #02b3e4;
 }
 
 header h2 {
-  font-size: 2em;
+  font-size: 42px;
   text-transform: uppercase;
 }
 
 header h3 {
-  font-size: 1.5em;
+  font-size: 32px;
 }
 
-/* Header-Image */
+/* Header Image */
 #header-image {
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 /* Featured Work */
 #featured {
-  height: 350px;
+  height: 400px;
+}
+
+#featured .full-width {
+  padding: 20px 0;
 }
 
 #featured .third-width {
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 #featured h2 {
-  font-size: 2em;
+  font-size: 42px;
   color: #7d97ad;
 }
 
 #featured h3 {
-  font-size: 1.4em;
+  font-size: 32px;
 }
 
 #featured p {
-  font-size: 1.3em;
+  font-size: 20px;
+}
+
+#featured img {
+  width: 330px;
 }
 
 #featured .clock {
@@ -89,6 +101,14 @@ header h3 {
 }
 
 /* Footer */
+footer {
+  height: 100px;
+}
+
+footer .full-width {
+  padding: 50px 0;
+}
+
 footer p {
-  font-size: 1em;
+  font-size: 16px;
 }
