@@ -1,0 +1,90 @@
+/* Basic Styles */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2d3c49;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+/* Grid System */
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 30%;
+  float: left;
+  padding-left: 20px;
+}
+
+/* Header */
+header {
+  border: 2px solid #7d97ad;
+  height: 150px;
+}
+
+header .full-width {
+  padding: 15px;
+}
+
+header h1 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 2em;
+  color: #02b3e4;
+}
+
+header h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-size: 1.3em;
+}
+
+/* Header-Image */
+#header-image {
+  padding: 15px 0;
+}
+
+/* Featured */
+#featured {
+  height: 350px;
+}
+
+#featured h2 {
+  font-size: 1.8em;
+  color: #7d97ad;
+}
+
+#featured h3 {
+  font-size: 1.3em;
+}
+
+#featured p {
+  font-size: 1em;
+}
+
+#featured .clock {
+  order: 1;
+}
+
+#featured .tribute-page {
+  order: 2;
+}
+
+#featured .magic-ball {
+  order: 3;
+}
